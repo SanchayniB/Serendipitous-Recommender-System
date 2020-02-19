@@ -8,8 +8,9 @@ import numpy as np
 import pandas as pd
 import math 
 
-def SVD(UImatrix,hiddenk = 10, epoch = 10 ):
+def SVD(UIinput,hiddenk = 10, epoch = 10 ):
 
+    UImatrix = UIinput.copy()
     n_factors = hiddenk
     n_epochs = epoch
     alpha = 0.1
@@ -21,18 +22,22 @@ def SVD(UImatrix,hiddenk = 10, epoch = 10 ):
     q = np.random.normal(0, .1, (n_items,n_factors))
 
     # Gradient descent
-    for _ in range(n_epochs):
-        for u in range(n_users):
-            for i in range(n_items):
-                r_ui = UImatrix[u,i]
-                if math.isnan(r_ui) == False:
-                
-                    err = r_ui - np.dot(p[u], q[i])
-                    # print(err)
-                    # Update vectors p_u and q_i
-                    p[u] += alpha * err * q[i]
-                    q[i] += alpha * err * p[u]
+
     
+    for _ in range(n_epochs):
+        for u, i in np.argwhere(np.isnan(UImatrix) == False):
+            r_ui = UImatrix[u,i]
+                
+                
+            err = r_ui - np.dot(p[u], q[i])
+            # print(err)
+            # Update vectors p_u and q_i
+            
+            p_u = (alpha * err * q[i])
+            q_u = (alpha * err * p[u])
+            p[u] += + p_u
+            q[i] += + q_u
 
 
-    return(np.dot(p, q))
+
+    return((p, q))

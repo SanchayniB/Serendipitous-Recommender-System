@@ -9,6 +9,8 @@ import sys
 
 from Filtering import train_filtering 
 
+from imdb import IMDb
+
 # To run: python python IMDbfeatures.py config.json in the terminal
 # Make sure you do necessary edits to the config file before running it
 
@@ -19,9 +21,15 @@ def main(config_arg):
     
     train_subset = train_filtering(train_loc, [2017])
     print(train_subset.head())
+    print(train_subset.shape)
     
     train_subset_path = config['intermediate_loc'] + '//train_subset.csv'
     train_subset.to_csv(train_subset_path)
+
+
+    ia = IMDb()
+
+
 
    
 

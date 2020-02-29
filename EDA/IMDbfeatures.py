@@ -27,7 +27,7 @@ def main(config_arg):
     train_subset.to_csv(train_subset_path)
 
 
-    ia = IMDb()
+    # ia = IMDb()
 
 
 

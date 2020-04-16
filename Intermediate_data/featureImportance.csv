@@ -1,0 +1,117 @@
+﻿feature,cluster,featureImportance
+votes,1,1
+runtimes,1,2
+kind_movie,1,3
+language codes_en,1,4
+year_2000s,1,5
+language codes_hi,1,6
+genres_Comedy,1,7
+certificates_G,1,8
+genres_Romance,1,9
+year_1900s,1,10
+genres_Horror,1,11
+genres_Thriller,1,12
+genres_Adventure,1,13
+language codes_ja,1,14
+genres_Mystery,1,15
+language codes_de,1,16
+language codes_es,1,17
+certificates_R,1,18
+language codes_fr,1,19
+genres_Crime,1,20
+year_1800s,1,21
+genres_Documentary,1,22
+language codes_it,1,23
+language codes_ru,1,24
+language codes_cmn,1,25
+genres_Drama,1,26
+language codes_sv,1,27
+certificates_PG,1,28
+genres_Action,1,29
+votes,2,1
+runtimes,2,2
+year_1900s,2,3
+kind_movie,2,4
+year_2000s,2,5
+genres_Horror,2,6
+language codes_en,2,7
+genres_Action,2,8
+certificates_PG,2,9
+language codes_es,2,10
+language codes_ru,2,11
+genres_Thriller,2,12
+certificates_R,2,13
+genres_Adventure,2,14
+genres_Crime,2,15
+certificates_G,2,16
+language codes_hi,2,17
+language codes_de,2,18
+language codes_fr,2,19
+genres_Comedy,2,20
+language codes_sv,2,21
+genres_Romance,2,22
+year_1800s,2,23
+language codes_cmn,2,24
+genres_Mystery,2,25
+genres_Drama,2,26
+language codes_ja,2,27
+genres_Documentary,2,28
+language codes_it,2,29
+votes,3,1
+runtimes,3,2
+year_2000s,3,3
+year_1900s,3,4
+kind_movie,3,5
+language codes_en,3,6
+genres_Romance,3,7
+language codes_de,3,8
+language codes_hi,3,9
+genres_Documentary,3,10
+genres_Comedy,3,11
+language codes_fr,3,12
+language codes_es,3,13
+language codes_it,3,14
+genres_Drama,3,15
+language codes_ru,3,16
+year_1800s,3,17
+genres_Horror,3,18
+certificates_R,3,19
+language codes_sv,3,20
+genres_Action,3,21
+genres_Crime,3,22
+language codes_ja,3,23
+genres_Mystery,3,24
+genres_Thriller,3,25
+genres_Adventure,3,26
+language codes_cmn,3,27
+certificates_G,3,28
+certificates_PG,3,29
+votes,0,1
+year_2000s,0,2
+runtimes,0,3
+year_1900s,0,4
+language codes_en,0,5
+genres_Drama,0,6
+genres_Thriller,0,7
+kind_movie,0,8
+genres_Documentary,0,9
+language codes_cmn,0,10
+genres_Romance,0,11
+genres_Horror,0,12
+certificates_G,0,13
+genres_Action,0,14
+year_1800s,0,15
+genres_Mystery,0,16
+language codes_ja,0,17
+genres_Adventure,0,18
+language codes_de,0,19
+language codes_it,0,20
+genres_Comedy,0,21
+genres_Crime,0,22
+certificates_PG,0,23
+language codes_hi,0,24
+language codes_ru,0,25
+language codes_es,0,26
+language codes_fr,0,27
+language codes_sv,0,28
+certificates_R,0,29
